@@ -27,3 +27,5 @@
 
 # Showing how to use an escape character in a string
   puts 'You\'re smart'
+# Solve by using " " double quotes
+  " I'm smart"
