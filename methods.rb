@@ -34,3 +34,18 @@
   puts (str.ljust(line_width))
   puts (str.center(line_width))
   puts (str.rjust(line_width))
+
+# one more exercise. Ask your boss for anything and make him yell.
+  puts 'Boss, I need to ask to you'
+  request = gets.chomp
+  puts 'WHAT DO YOU MEAN "' + request.upcase + '"?!? YOU\'RE OUT OF HERE!!'
+
+# To generate some random numbers, do the following:
+  puts rand
+
+# Random can also take arguments
+  puts (rand(100))
+
+# we can save random number by using the srand method.after() do
+  srand 1980
+  puts (rand(10))
